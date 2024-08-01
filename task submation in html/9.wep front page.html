@@ -1,0 +1,430 @@
+<!doctype html>
+<head>
+    <meta charset="uft-8">
+    <title>
+        formal web page
+    </title>
+    <style>
+        *{
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        .navbar{
+            background-color: lightgray
+            font-family: 'Times New Roman', Times, serif;
+            padding-right: 5px;
+            padding:5px;
+            margin-bottom: 5px;
+
+        }
+        .nav-div{
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px;
+            font-weight:600;
+            color:rgb(3, 0, 0);
+
+        }
+        li{  list-style: none;
+            display: inline-block;
+
+        }
+        li a{
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        button{
+            background-color: black;
+            margin-left: 10px;
+            border-radius: 10px;
+            margin-right: 25px;
+            padding: 10px;
+            width: 90px;
+        }
+        button a{
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+
+
+        }
+        #main-div{
+            width: 100%;
+            min-height: 230px;
+            margin-bottom: 5px;
+            padding-top: 10px;
+            padding-left: 10%;
+            
+        }
+        #main-div2{
+            width: 100%;
+            min-height: 230px;
+            margin-bottom: 5px;
+            padding-top: 10px;
+            padding-left: 10%;
+        }
+    
+        #main-div3{
+            width: 100%;
+            min-height: 230px;
+            margin-bottom: 5px;
+            padding-top: 10px;
+            padding-left: 10%;
+        }
+        #div-1{
+            width:20%;
+            min-height: 200px;
+            background-color: lightgrey;
+            margin-left: 2%;
+            float: left;
+            padding: 2px 2px 2px 2px;
+            border-style:initial
+        
+
+        }
+        #div-2{
+            width:20%;
+            min-height: 200px;
+            background-color:lightgrey;
+            margin-left: 2%;
+            float: left;
+            padding: 2px 2px 2px 2px;
+        
+
+        }
+        #div-3{
+            width:20%;
+            min-height: 200px;
+            background-color: lightgrey;
+            margin-left: 2%;
+            float: left;
+            padding: 2px 2px 2px 2px;
+        
+
+        }
+        #div-4{
+            width:20%;
+            min-height: 200px;
+            background-color: lightgrey;
+            margin-left: 2%;
+            float: left;
+            padding: 2px 2px 2px 2px;
+        
+        }
+        #div-5{
+            width:20%;
+            min-height: 200px;
+            background-color: lightgrey;
+            margin-left: 2%;
+            float: left;
+            padding: 2px 2px 2px 2px;
+        
+
+        }
+        #div-6{
+            width:20%;
+            min-height: 200px;
+            background-color: lightgrey;
+            margin-left: 2%;
+            float: left;
+            padding: 2px 2px 2px 2px;
+        
+        } #div-7{
+            width:20%;
+            min-height: 200px;
+            background-color: lightgrey;
+            margin-left: 2%;
+            float: left;
+            padding: 2px 2px 2px 2px;
+        
+        }
+        #div-8{
+            width:20%;
+            min-height: 200px;
+            background-color: lightgrey;
+            margin-left: 2%;
+            float: left;
+            padding: 2px 2px 2px 2px;
+        
+
+        }
+        #dad-div{
+            width: 100%;
+            min-height: 600px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            color: #fffdfd;
+            border-style:initial;
+
+        }
+        #mom-div{
+            width: 20%;
+            min-height:550px;
+            padding-top: 20px;
+            padding-left: 40px;
+            text-align: center;
+            color: #fffdfd;
+            float: left;
+            border-style:initial;
+            color: black;
+            border-style:outset;
+            border-color: lightgrey;
+        }
+        #mom-div1{
+            width: 80%;
+            min-height: 150px;
+            background-color:    white;
+            margin-bottom:15px;
+            border-style:initial;
+            text-align: left;
+            color: black
+        }
+        #mom-div2{
+            width: 80%;
+            min-height: 150px;
+            background-color:    white;
+            margin-bottom: 15px;
+            border-style:initial;
+            text-align: left;
+            color: black
+        }
+        #mom-div3{
+            width: 80%;
+            min-height: 150px;
+            background-color:  white;
+            margin-bottom: 15px;
+            border-style:initial;
+            text-align: left;
+            color: black;
+        }
+        
+        #son-div{
+            width: 75%;
+            min-height:550px;
+            text-align: center;
+            color: #fffdfd;
+            float: right;
+
+        }
+        #wife-dive1{
+            width: 45%;
+            min-height: 320px;
+            margin-bottom: 35px;
+            float: left;
+            border-style:initial;
+            border-style:outset;
+            border-color: lightgrey;
+        
+        }
+        #wife-dive2{
+            width: 45%;
+            min-height: 320px;
+            margin-bottom: 35px;
+            float: right;
+            border-style:outset;
+            border-color: lightgrey;
+        }
+        #wife-dive3{
+            width: 100%;
+            min-height: 150px;
+            margin-bottom:;
+            float:inline-start;
+            border-style:initial;
+            border-style:outset;
+            border-color: lightgrey;
+        
+        }
+        #kid-1{width: 48%;
+            min-height: 150px;
+            background-color:    white;
+            margin-bottom:10px;
+            float: left;
+            border-style:initial;
+            color: black;
+        
+
+        }
+        #kid-2{width: 48%;
+            min-height: 150px;
+            background-color:    white;
+            margin-bottom:10px;
+            float: right;
+            border-style:initial;
+            color: black;
+        
+
+        }
+        #kid-3{width: 48%;
+            min-height: 150px;
+            background-color:    white;
+            margin-top:10px;
+            float: left;
+            border-style:initial;
+            color: black;
+
+        }
+            #kid-4{width: 48%;
+            min-height: 150px;
+            background-color:    white;
+            margin-top:10px;
+            float: right;
+            border-style:initial;
+            color: black;
+
+        }
+    
+        #kid-5{width: 48%;
+            min-height: 150px;
+            background-color:    white;
+            margin-bottom:10px;
+            float: left;
+            border-style:initial;
+            color: black;
+
+        }
+        #kid-6{width: 48%;
+            min-height: 150px;
+            background-color:    white;
+            margin-bottom:10px;
+            float: right;
+            border-style:initial;
+            color: black;
+
+        }
+        #kid-7{width: 48%;
+            min-height: 150px;
+            background-color:  white;
+            margin-top:10px;
+            float: left;
+            border-style:initial;
+            color: black;
+        }
+            #kid-8{width: 48%;
+            min-height: 150px;
+            background-color:    white;
+            margin-top:10px;
+            float: right;
+            border-style:initial;
+            color: black;
+
+        }
+    
+        #kid-9{width: 18%;
+            min-height: 150px;
+            background-color:    white;
+            margin-left:10px;
+            float: left;
+            border-style:initial;
+            color: black;
+
+        }
+        #kid-10{width: 18%;
+            min-height: 150px;
+            background-color:    white;
+            margin-left:20px;
+            float: left;
+            border-style:initial;
+            color: black;
+
+        }
+        #kid-11{width: 18%;
+            min-height: 150px;
+            background-color:    white;
+            margin-left:20px;
+            float: left;
+            color: black;
+        }
+            #kid-12{width: 18%;
+            min-height: 150px;
+            background-color:    white;
+            margin-left:20px;
+            float:left;
+            border-style:initial;
+            color: black;
+
+        }
+        #kid-13{width: 18%;
+            min-height: 150px;
+            background-color:    white;
+            margin-left:20px;
+            float:left;
+            border-style:initial;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="nav-div">
+    <div class="logo"><a href="#">Tarun bunga</a></div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+        <button><a href="#">signin</a></button>
+        <button><a href="#">signout</a></button>
+
+    </ul>
+    </div>
+    </nav>
+    <div id="main-div">
+        <div id="div-1">TARUN<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.1.jpg" width="100%" height="190px"></div>
+        <div id="div-2">chandu<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.2.jpg" width="100%" height="190px"></div>
+        <div id="div-3">rakhi<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.3.jpg" width="100%" height="190px"></div>
+        <div id="div-4">bunni<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.4.jpg" width="100%" height="190px"></div>
+     </div>
+        <div id="main-div2">
+        <div id="div-5">joji<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.5.jpg" width="100%" height="190px"></div>
+        <div id="div-6">nani<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.6.jpg" width="100%" height="190px"></div>
+        <div id="div-7">tinku<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.7.jpg" width="100%" height="190px"></div>
+        <div id="div-8">sam<img  src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\image.8.jpeg" width="100%" height="190px"></div>
+    </div>
+        <div id="main-div3">
+        <div id="div-5">joji<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.9.jpg" width="100%" height="190px"></div>
+        <div id="div-6">nani<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.10.jpg"width="100%" height="190px"></div>
+        <div id="div-7">tinku<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.11.png" width="100%" height="190px"></div>
+        <div id="div-8">sam<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images012.jpg" width="100%" height="190px"></div>
+    </div>
+
+    <div id="dad-div">
+        <div id="mom-div">
+            <div id="mom-div1">Ramya<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.30.jpg"width="100%" height="130px"></div>
+            <div id="mom-div2">navya<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.25.jpg" width="100%" height="130px"></div>
+            <div id="mom-div3">Tarun<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.13.jpg" width="100%" height="130px"></div>
+        </div>
+        <div id="son-div">
+            <div id="wife-dive1">
+                <div id="kid-1">bannu<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\image.17.jpg" width="100%" height="130px"></div>
+                <div id="kid-2">chinnu<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\image.19.jpg"width="100%" height="130px"></div>
+                <div id="kid-3">babu<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.11.png" width="100%" height="130px"></div>
+                <div id="kid-4">talli<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.10.jpg" width="100%" height="130px"></div>
+            </div>
+            <div id="wife-dive2">
+                <div id="kid-5">chinni<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.9.jpg" width="100%" height="130px"></div>
+                <div id="kid-6">dj<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.14.jpg" width="100%" height="130px"></div>
+                <div id="kid-7">pradha<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.15.jpg" width="100%" height="130px"></div>
+                <div id="kid-8">bujji<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.16.jpg" width="100%" height="130px"></div>
+            </div>
+            <div id="wife-dive3">
+                <div id="kid-9">BB<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.17.jpg"width="100%" height="130px"></div>
+                <div id="kid-10">my world<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.21.png"width="100%" height="130px"></div>
+                <div id="kid-11">sweety<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images.24.jpg" width="100%" height="130px"></div>
+                <div id="kid-12">BBlu<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images012.jpg" width="100%" height="130px"></div>
+                <div id="kid-13">BBlu<img src="C:\Users\praga\OneDrive\Desktop\PROJECT IMAGES\images28.jpg" width="100%" height="130px"></div>
+            </div>
+    
+    
+    
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling the table */
+  #colored-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove cell spacing */
+  }
+  
+  /* Styling left cells using RGBA method */
+  .left-cell {
+    background-color: rgba(255, 0, 0, 0.5); /* Red with 50% opacity */
+    padding: 10px;
+  }
+  
+  /* Styling right cells using hexadecimal with transparency */
+  .right-cell {
+    background-color: #00ff0080; /* Green with 50% opacity */
+    padding: 10px;
+  }
+  
+  /* Optional: Adding some space between cells */
+  td {
+    text-align: center;
+    border: none; /* Remove borders */
+  }

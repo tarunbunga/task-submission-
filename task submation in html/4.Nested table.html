@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nested Tables</title>
+	<style>
+		body {
+			text-align: center;
+			margin: 50px;
+		}
+
+		h1 {
+			color: rgb(255, 1, 1);
+		}
+        p {color: blue;}
+		table {
+			border: 10px rgb(0, 0, 0);
+			margin: 20px auto;
+		}
+
+		table table {
+			border: 10px rgb(0, 0, 0);
+			margin: 10px auto;
+		}
+
+		td {
+			padding: 20px;
+			text-align: center;
+            
+		}
+	</style>
+</head>
+
+<body>
+	<h1>TASK2</h1>
+	<p><b>Nested tables</b></p>
+
+	<table border="10">
+		<tr>
+			<td><strong>Main Table row 1 column 1</strong></td>
+			<td>Main Table column 2
+				<table border="10">
+					<tr>
+						<td>Inner Table row 1 column 1</td>
+						<td>Inner Table row 1 column 2</td>
+					</tr>
+					<tr>
+						<td>Inner Table row 2 column 1</td>
+						<td>Inner Table row 2 column 2</td>
+					</tr>
+					<tr>
+						<td>Inner Table row 3 column 1</td>
+						<td>Inner Table row 3 column 2</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td><strong> Table row 2 column 1</strong></td>
+			<td> Table row 2 column 2</td>
+		</tr>
+	</table>
+</body>
+
+</html>

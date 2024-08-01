@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>lay out 1</title>
+        <STYLE>
+            *{
+                margin: 0px;
+                padding:0px;
+                box-sizing: border-box;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            #logo-div{
+                width:100%;
+                min-height: 50px;
+                background-color: lightskyblue;
+                padding-left: 2%;
+                line-height: 50px;
+                margin-bottom: 2px;
+            }
+            #nav-div{
+                width: 100%;
+                min-height: 30px;
+                background-color:lightskyblue;
+                text-align: center;
+                line-height:30px;
+                margin-bottom: 2px;
+                 
+            }
+            #header-banner-div{
+                width: 100%;
+                min-height: 80px;
+                background-color:lightskyblue;
+                line-height: 80px;
+                text-align: center;
+                margin-bottom: 2px; 
+
+            }
+            #main-div{
+            width: 100%;
+            margin-bottom: 2px;
+           
+
+            }
+            #sidebar-div{
+                width: 20%;
+                background-color: lightskyblue;
+                min-height: 400px;
+                float: left;
+                text-align: center;
+                line-height: 400px;
+            }
+            #bodyarea-div{
+                width: 75%;
+                background-color: lightskyblue;
+                min-height:400px;
+                float: right;
+                ntext-align: center;
+                line-height: 400px;
+            }
+            .clearfix::after{
+                content: "";
+                display: block;
+                clear: both;
+                    
+            }
+            #fotter-div{
+                width: 100%;
+                min-height: 50px;
+                background-color:  lightskyblue;
+                text-align: center;
+                line-height: 50px;
+            }
+        </STYLE>
+
+    </head>
+    <body>
+        <div id="logo-div"> Tarun bunga</div>
+
+            <div id="nav-div">Navigation</div>
+            <div id="header-banner-div">HEADER/BANNER</div>
+            <div id="main-div" class="clearfix">
+                <div id="sidebar-div">side bar</div>
+                <div id="bodyarea-div"> body area</div>
+                
+            
+            </div>
+            <div id="fotter-div">fotter</div>
+        
+    </body>
+
+
+</html>

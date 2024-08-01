@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>HTML Form</title>
+<style>
+
+form {
+width: 400px;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px
+rgba(0, 0, 0, 0.1);
+}
+fieldset {
+border: 1px solid black;
+padding: 10px;
+margin: 0;
+}
+legend {
+font-weight: bold;
+margin-bottom: 10px;
+}
+label {
+display: block;
+margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+input[type="date"] {
+width: calc(100%- 20px);
+padding: 8px;
+margin-bottom: 10px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+input[type="radio"] {
+margin-left: 20px;
+}
+input[type="submit"] {
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<form>
+    <fieldset>
+<legend>
+user personal information
+</legend>
+<label>enter your full name</label>
+<input type="text" name="name"/>
+<label>enter your email</label>
+<input type="emil" name="email"/>
+<label>enter your password</lable>
+    <input type="password" name="pass"/>
+    <label>conform your password</label>
+        <input type="password" name="conformpassword"/>
+        <label>enter your gender</label>
+        <input type="radio" name="gender" value="male"/>male
+        <input type="radio" name="gender" value="female"/>female
+        <input type="radio" name="gender" value="others"/>others
+        <label> enter your DOB</label>
+        <input type="date" name="dob"/>
+    
+        <label>enther your adress;</label>
+        <input type="adress" name="adress" value=""adress
+        width="50px" height="50px"/>
+        </fieldset>
+    </form>
+    <form>
+    <fieldset>
+        <legend>
+        the dragon
+        </legend>
+        <label>the topic name</label>
+        <input type="text" name="name"/>
+        <label>the hero</label>
+        <input type="text" name="name"/>
+        <label>heroine name</label>
+        <input type="text"name="name"/>
+        <label>the diroctor</lab>
+        <input type="text" name="name"/>
+    </form>
+
+    </fieldset>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>login form</title>
+    <style>
+form{
+    border:5px solid black;
+    width:300px;
+    min-height: 400px;
+    margin: auto;
+    margin: top 30px;
+    background-color: lightgrey;
+
+}
+.imgcontainer{
+   text-align: center;
+   padding-top: 10px;
+
+}
+.user{
+padding-left: 20px;
+}
+.password{
+  padding-left: 22px;
+}
+.checkbox{
+  text-align: center; 
+}
+.login{
+  text-align: center;
+}
+.login button{
+}
+.container{
+  text-align: center;
+}
+button{
+  background-color: blue;
+  width: 70px;
+  border-radius: 50px;
+}
+button:hover{
+  color: white;
+  background-color: black;
+}
+    </style>
+</head>
+<body></body>
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="C:\Users\praga\OneDrive\Desktop\login-avatar.png" alt="Avatar" class="avatar" width="200" height="200px">
+    </div>
+    <div class="user">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+    </div>
+    <div class="password"><label for="psw"><b>Password </b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+    </div>
+    <div class="login">
+    <button type="submit">Login</button><br>
+    </div><br>
+    <div class="checkbox">
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me</label>
+    </div><br>
+    <div class="container">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form>
+</body>
+</html>
